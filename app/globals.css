@@ -111,3 +111,7 @@ body {
   font-family: "graphik_regularregular", Arial, Helvetica, sans-serif;
 }
 
+.getShadow {
+  filter: drop-shadow(46px -10px 16px #0000002c);
+  -webkit-filter: drop-shadow(46px -10px 16px #0000002c);
+}

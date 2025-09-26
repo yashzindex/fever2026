@@ -77,7 +77,7 @@ const PlugPlay = () => {
               </div>
             </div>
             <div className="md:col-span-5">
-              <div className="h-full rounded-2xl bg-[#0D0D0D]">
+              <div className="h-full rounded-2xl bg-[#0D0D0D] overflow-hidden">
                 <div className="w-full max-w-sm space-y-4 p-8 lg:p-10 !pb-4  text-background">
                   <p className="text-sm">Reliable automation</p>
                   <h5 className="text-xl xl:text-22 leading-snug">

@@ -36,7 +36,7 @@ const Platform = () => {
                 </div>
               </div>
               {/* backkgrounds and images */}
-              <div className="relative max-lg:mt-5 max-lg:mx-auto lg:absolute bottom-0 right-5 lg:right-20 xl:right-32 w-44 sm:w-60 lg:w-52 xl:w-60 xxl:w-64 h-64 sm:h-72 lg:h-[80%]">
+              <div className="relative max-lg:mt-5 max-lg:mx-auto lg:absolute bottom-0 lg:right-20 xl:right-32 w-44 sm:w-60 lg:w-52 xl:w-60 xxl:w-64 h-64 sm:h-72 lg:h-[80%]">
                 <Image src={blockBg1} alt="image" className="h-full w-full" />
               </div>
             </div>

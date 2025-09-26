@@ -45,7 +45,7 @@ const Footer = () => {
           </div>
 
           <div className="flex-1 text-right">
-            <div className="text-background text-sm leading-normal">
+            <div className="text-background max-xxs:text-xs text-sm leading-normal">
               © 2025 ALL RIGHTS RESERVED,{" "}
               <Link
                 href="/"
