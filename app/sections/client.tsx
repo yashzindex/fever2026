@@ -79,16 +79,7 @@ const Client = () => {
                 />
               </div>
             ))}
-            {/* Repeat the icons to create a seamless loop */}
-            {/* {clientIcons.map((icon, index) => (
-              <div key={`repeat-${index}`} className="block mx-8 md:mx-10 2xl:mx-16">
-                <Image
-                  src={icon}
-                  alt={`client-icon-${index}-repeat`}
-                  className="max-w-40"
-                />
-              </div>
-            ))} */}
+          
           </Marquee>
         </div>
       </div>

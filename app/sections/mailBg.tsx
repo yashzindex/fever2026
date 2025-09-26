@@ -30,7 +30,7 @@ const MailBg = () => {
               className="p-5 lg:pr-44 lg:py-7 lg:pl-8 w-full lg:h-full rounded-2xl placeholder:text-sm text-background text-base max-lg:leading-snug outline-none backdrop-blur-md border border-background/15"
             />
 
-            <button className="relative max-lg:mt-3 mx-auto lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:right-3 outline-none rounded-xl py-3 lg:py-5 px-6 bg-background text-foreground text-sm font-graphikMedium hover:bg-background/80 transition-all duration-300">
+            <button className="relative cursor-pointer max-lg:mt-3 mx-auto lg:absolute lg:top-1/2 lg:-translate-y-1/2 lg:right-3 outline-none rounded-xl py-3 lg:py-5 px-6 bg-background text-foreground text-sm font-graphikMedium hover:bg-background/80 transition-all duration-300">
               Book an intro
             </button>
           </div>

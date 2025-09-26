@@ -1,54 +1,32 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import footerLogo1 from "@/public/images/footerLogo1.svg";
 import feverWhite from "@/public/images/feverWhite.svg";
-import Image from "next/image";
+
+const footerLinks = [
+  { href: "/", label: "Home" },
+  { href: "/", label: "Platform" },
+  { href: "/", label: "Customer Cases" },
+  { href: "/", label: "About Fever" },
+  { href: "/", label: "Contact" },
+];
 
 const Footer = () => {
   return (
     <footer className="pt-20 md:pt-28 xl:pt-38 xxl:pt-48 2xl:pt-64 pb-10 xxl:pb-14 bg-foreground">
       <div className="container">
         <ul className="space-y-2.5 max-md:text-center">
-          <li>
-            <Link
-              href="/"
-              className="text-background text-base leading-normal hover:underline underline-offset-1 transition-all duration-300"
-            >
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/"
-              className="text-background text-base leading-normal hover:underline underline-offset-1 transition-all duration-300"
-            >
-              Platform
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/"
-              className="text-background text-base leading-normal hover:underline underline-offset-1 transition-all duration-300"
-            >
-              Customer Cases
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/"
-              className="text-background text-base leading-normal hover:underline underline-offset-1 transition-all duration-300"
-            >
-              About Fever
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/"
-              className="text-background text-base leading-normal hover:underline underline-offset-1 transition-all duration-300"
-            >
-              Contact
-            </Link>
-          </li>
+          {footerLinks.map((link, index) => (
+            <li key={index}>
+              <Link
+                href={link.href}
+                className="text-background text-base leading-normal hover:underline underline-offset-1 transition-all duration-300"
+              >
+                {link.label}
+              </Link>
+            </li>
+          ))}
         </ul>
         <div className="mt-10 xxl:mt-20 flex max-md:flex-col max-md:gap-3 items-center">
           <div className="flex-1 ">
