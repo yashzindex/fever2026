@@ -59,7 +59,7 @@ const GetAvoid: React.FC<GetAvoidProps> = ({
                 </div>
               </div>
               <div className="absolute bottom-0 left-[15%] sm:left-[20%] right-[15%] sm:right-[20%] h-36 md:h-48 lg:h-52">
-                <Image src={getImage} alt="get-image" className="getShadow" />
+                <Image src={getImage} alt="get-image" className="h-full getShadow" />
               </div>
             </div>
 
