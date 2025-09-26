@@ -26,7 +26,7 @@ const SimpleBtn = ({
         <Image
           src={arrowBlack}
           alt="icon"
-          className={`${arrowClass} group-hover:ml-1 transition-all duration-300`}
+          className={`${arrowClass} group-hover:-rotate-45 transition-all duration-300`}
         />
       </Link>
     </>

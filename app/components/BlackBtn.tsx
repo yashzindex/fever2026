@@ -24,7 +24,7 @@ const BlackBtn = ({
       <Image
         src={arrowWhite}
         alt="icon"
-        className={`${arrowClass} group-hover:ml-1 transition-all duration-300`}
+        className={`${arrowClass} group-hover:-rotate-45 transition-all duration-300`}
       />
     </Link>
   );
