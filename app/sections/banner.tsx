@@ -1,4 +1,4 @@
-import Link from "next/link";
+
 import React from "react";
 import BlackBtn from "../components/BlackBtn";
 
@@ -12,8 +12,8 @@ const Banner = () => {
           </h1>
           <div className="w-full md:w-5/6 xl:w-3/6">
             <p className="text-base xxl:text-lg 2xl:text-xl leading-relaxed">
-              Energy companies use Fever's platform to aggregate and operate
-              their customers' energy assets, so they can optimise them and turn
+              Energy companies use Fever&apos;s platform to aggregate and operate
+              their customers&apos; energy assets, so they can optimise them and turn
               flexibility into revenue.
             </p>
           </div>

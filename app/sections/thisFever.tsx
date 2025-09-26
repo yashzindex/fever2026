@@ -10,7 +10,7 @@ const ThisFever = () => {
           <div className="xl:pr-40 xxl:pr-48">
             {/* text-3xl sm:text-4xl md:text-42 lg:text-46 xl:text-6xl xxl:text-7xl 2xl:text-80 */}
             <h2 className="text-2xl sm:text-3xl md:text-[34px] xl:text-4xl 2xl:text-46 font-perfectly leading-tight">
-              Leading European utilities and energy companies use Fever's
+              Leading European utilities and energy companies use Fever&apos;s
               platform to help their customers save money and generate new
               income through Al-powered optimisation and flexibility services.
             </h2>

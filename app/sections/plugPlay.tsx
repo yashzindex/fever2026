@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 import Image from "next/image";
 import SimpleBtn from "../components/SimpleBtn";
 import plugBlock2 from "@/public/images/plugBlock2.png";

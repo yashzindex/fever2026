@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Banner from "./sections/banner";
 import Header from "./components/header";
 import Client from "./sections/client";
@@ -49,9 +48,9 @@ export default function Home() {
         getImage={get}
         avoidImage={avoid}
       />
-      {/* <Counter />
+      <Counter />
       <Platform />
-      <PlugPlay /> */}
+      <PlugPlay />
       <MailBg />
       <Footer />
     </>
