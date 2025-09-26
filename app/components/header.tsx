@@ -28,7 +28,7 @@ const Header = () => {
 
           {/* Hamburger for mobile */}
           <button
-            className="lg:hidden relative z-[60] flex flex-col justify-center items-center w-8 h-8"
+            className="lg:hidden cursor-pointer relative z-[60] flex flex-col justify-center items-center w-8 h-8"
             aria-label="Toggle menu"
             onClick={toggleCollapse}
           >
