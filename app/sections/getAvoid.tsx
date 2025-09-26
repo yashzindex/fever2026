@@ -27,7 +27,7 @@ const GetAvoid: React.FC<GetAvoidProps> = ({
         <div className="sm:px-6 xl:px-14">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {/* What You Get Section */}
-            <div className="relative rounded-2xl overflow-hidden bg-white pt-11 px-6 pb-40 md:pb-56 lg:pb-60">
+            <div className="relative rounded-2xl overflow-hidden bg-white pt-11 px-6 pb-40 md:pb-56 lg:pb-52 xxl:pb-60">
               <div className="mb-8 xxl:mb-11 text-center">
                 <p className="text-sm mb-3">{getContent.subText}</p>
                 <h3 className="text-2xl sm:text-3xl md:text-[34px] xl:text-4xl 2xl:text-46 font-perfectly leading-tight">
@@ -58,13 +58,13 @@ const GetAvoid: React.FC<GetAvoidProps> = ({
                   </div>
                 </div>
               </div>
-              <div className="absolute bottom-0 left-[15%] sm:left-[20%] right-[15%] sm:right-[20%] h-36 md:h-48 lg:h-52">
+              <div className="absolute bottom-0 left-[15%] sm:left-[20%] right-[15%] sm:right-[20%] h-36 md:h-48 lg:h-44 xxl:h-52">
                 <Image src={getImage} alt="get-image" className="h-full getShadow" />
               </div>
             </div>
 
             {/* What You Avoid Section */}
-            <div className="relative rounded-2xl bg-[#1B1C1F] pt-11 px-6 pb-40 md:pb-56 lg:pb-60">
+            <div className="relative rounded-2xl bg-[#1B1C1F] pt-11 px-6 pb-40 md:pb-56 lg:pb-52 xxl:pb-60">
               <div className="mb-8 xxl:mb-11 text-center">
                 <p className="text-background text-sm mb-3">
                   {avoidContent.subText}
@@ -97,7 +97,7 @@ const GetAvoid: React.FC<GetAvoidProps> = ({
                   </div>
                 </div>
               </div>
-              <div className="absolute bottom-0 left-[8%] sm:left-[20%] right-[8%] sm:right-[20%] h-36 md:h-48 lg:h-52">
+              <div className="absolute bottom-0 left-[8%] sm:left-[20%] right-[8%] sm:right-[20%] h-36 md:h-48 lg:h-44 xxl:h-52">
                 <Image src={avoidImage} alt="avoid-image" className="h-full" />
               </div>
             </div>

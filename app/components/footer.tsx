@@ -34,7 +34,7 @@ const Footer = () => {
               <Image
                 src={footerLogo1}
                 alt="footerLogo1"
-                className="object-contain"
+                className="h-9 w-9"
               />
               <Image
                 src={feverWhite}
