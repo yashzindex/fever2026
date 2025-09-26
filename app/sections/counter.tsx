@@ -13,7 +13,7 @@ const Counter = () => {
       <div className="container">
         <div className="grid grid-cols-1 md:grid-cols-3">
           {counters.map((counter, index) => (
-            <div key={index} className="p-5 md:p-8 flex flex-col gap-3 text-center">
+            <div key={index} className="p-5 md:p-6 lg:p-8 flex flex-col gap-3 text-center">
               <span className="font-perfectly text-3xl sm:text-4xl md:text-42 lg:text-46 xl:text-6xl xxl:text-7xl 2xl:text-80">
                 {counter.value}
               </span>
