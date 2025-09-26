@@ -18,7 +18,7 @@ const BlackBtn = ({
   return (
     <Link
       href={btnLink}
-      className={`${btnClass} bg-foreground text-background text-sm font-graphikMedium inline-flex items-center gap-2 py-3 px-4 border border-black rounded-lg group transition-all duration-300`}
+      className={`${btnClass} bg-foreground text-[#F5F5F7] text-sm font-graphikMedium inline-flex items-center gap-2 py-3 px-4 border border-black rounded-lg group transition-all duration-300`}
     >
       {btnText}
       <Image

@@ -10,16 +10,16 @@ const PlugPlay = () => {
     <section className="relative bg-foreground pt-10 md:pt-16 xl:pt-20 xxl:pt-32 2xl:pt-40 pb-10 md:pb-16 xxl:pb-24 2xl:pb-32">
       <div className="container">
         <div className="text-center text-background max-w-3xl xl:max-w-4xl mx-auto mb-9 md:mb-12 xl:mb-16 3xl:mb-24">
-          <p className="text-sm pb-1">Platform</p>
+          <p className="text-sm mb-5">Platform</p>
 
           <h4 className="font-perfectly text-3xl sm:text-[34px] md:text-[38px] lg:text-[42px] xl:text-6xl 2xl:text-[54px] 3xxl:text-60 leading-tight">
-            Platform Fever’s Platform: From Plug-and-Play to Proven Results
+            Fever’s Platform: From Plug-and-Play to Proven Results
           </h4>
           <div className="mt-7 lg:mt-10">
             <SimpleBtn
               btnText="Go to Platform"
               btnLink="/"
-              btnClass="inline-flex"
+              btnClass="inline-flex text-sm"
               arrowClass="invert"
             />
           </div>

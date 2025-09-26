@@ -17,7 +17,7 @@ const Counter = () => {
               <span className="font-perfectly text-3xl sm:text-4xl md:text-42 lg:text-46 xl:text-6xl xxl:text-7xl 2xl:text-80">
                 {counter.value}
               </span>
-              <p>{counter.label}</p>
+              <p className="text-sm">{counter.label}</p>
             </div>
           ))}
         </div>

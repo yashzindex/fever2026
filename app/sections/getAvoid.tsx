@@ -40,7 +40,7 @@ const GetAvoid: React.FC<GetAvoidProps> = ({
                     {getContent.list.slice(0, 3).map((item, index) => (
                       <div
                         key={index}
-                        className="relative pl-8 after:absolute after:content-[''] after:top-1/2 after:-translate-y-1/2 after:size-1 after:bg-foreground after:left-2 after:rounded-full text-sm md:text-base xl:text-lg xxl:text-xl 2xl:text-22"
+                        className="relative pl-8 after:absolute after:content-[''] after:top-1/2 after:-translate-y-1/2 after:size-[5px] after:bg-foreground after:left-2 after:rounded-full text-sm md:text-base xl:text-lg xxl:text-xl 2xl:text-22"
                       >
                         {item}
                       </div>
@@ -50,7 +50,7 @@ const GetAvoid: React.FC<GetAvoidProps> = ({
                     {getContent.list.slice(3).map((item, index) => (
                       <div
                         key={index}
-                        className="relative pl-8 after:absolute after:content-[''] after:top-1/2 after:-translate-y-1/2 after:size-1 after:bg-foreground after:left-2 after:rounded-full text-sm md:text-base xl:text-lg xxl:text-xl 2xl:text-22"
+                        className="relative pl-8 after:absolute after:content-[''] after:top-1/2 after:-translate-y-1/2 after:size-[5px] after:bg-foreground after:left-2 after:rounded-full text-sm md:text-base xl:text-lg xxl:text-xl 2xl:text-22"
                       >
                         {item}
                       </div>
@@ -79,7 +79,7 @@ const GetAvoid: React.FC<GetAvoidProps> = ({
                     {avoidContent.list.slice(0, 3).map((item, index) => (
                       <div
                         key={index}
-                        className="relative pl-8 after:absolute after:content-[''] after:top-1/2 after:-translate-y-1/2 after:size-1 after:bg-background after:left-2 after:rounded-full text-sm md:text-base xl:text-lg xxl:text-xl 2xl:text-22 text-background"
+                        className="relative pl-8 after:absolute after:content-[''] after:top-1/2 after:-translate-y-1/2 after:size-[5px] after:bg-background after:left-2 after:rounded-full text-sm md:text-base xl:text-lg xxl:text-xl 2xl:text-22 text-background"
                       >
                         {item}
                       </div>
@@ -89,7 +89,7 @@ const GetAvoid: React.FC<GetAvoidProps> = ({
                     {avoidContent.list.slice(3).map((item, index) => (
                       <div
                         key={index}
-                        className="relative pl-8 after:absolute after:content-[''] after:top-1/2 after:-translate-y-1/2 after:size-1 after:bg-background after:left-2 after:rounded-full text-sm md:text-base xl:text-lg xxl:text-xl 2xl:text-22 text-background"
+                        className="relative pl-8 after:absolute after:content-[''] after:top-1/2 after:-translate-y-1/2 after:size-[5px] after:bg-background after:left-2 after:rounded-full text-sm md:text-base xl:text-lg xxl:text-xl 2xl:text-22 text-background"
                       >
                         {item}
                       </div>

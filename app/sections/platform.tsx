@@ -9,7 +9,7 @@ const Platform = () => {
     <section className="relative mb-2 md:mb-20 lg:mb-28 xl:mb-36 2xl:mb-44 3xl:mb-52">
       <div className="container">
         <div className="sm:px-6 xl:px-14 py-5">
-          <div className="max-md:text-center space-y-5 md:mb-10 xxl:mb-14">
+          <div className="max-md:text-center space-y-5 md:mb-5 xxl:mb-5">
             <p className="text-sm">Platform</p>
 
             <h4 className="font-perfectly text-3xl sm:text-[34px] md:text-[38px] lg:text-[42px] xl:text-6xl 2xl:text-[54px] 3xxl:text-60 leading-tight">
@@ -41,9 +41,9 @@ const Platform = () => {
               </div>
             </div>
             {/* second box */}
-            <div className="bg-white relative rounded-2xl p-6 xxs:p-10 max-lg:!pt-0 xl:p-16 xxl:p-20 lg:min-h-[380px] xl:min-h-[430px] xxl:min-h-[450px] 2xl:min-h-[500px]">
+            <div className="bg-white relative overflow-hidden rounded-2xl p-6 xxs:p-10 max-lg:!pt-0 xl:p-16 xxl:p-20 lg:min-h-[380px] xl:min-h-[430px] xxl:min-h-[450px] 2xl:min-h-[500px]">
               {/* backkgrounds and images */}
-              <div className="relative max-lg:mb-5 max-lg:mx-auto lg:absolute lg:top-10 lg:bottom-0 lg:left-7 lg:w-xs xl:w-sm xxl:w-md 2xl:w-md 3xl:w-[530px]">
+              <div className="relative max-lg:mb-5 max-lg:mx-auto max-lg:rounded-b-2xl lg:rounded-t-2xl lg:absolute lg:top-10 lg:bottom-0 lg:left-7 lg:w-xs xl:w-sm xxl:w-md 2xl:w-md 3xl:w-[530px] shadow-sm shadow-black">
                 <Image
                   src={blockBg2}
                   alt="image"
@@ -53,7 +53,7 @@ const Platform = () => {
               {/* content */}
               <div className="lg:ml-auto lg:max-w-md xl:max-w-lg xxl:max-w-xl 2xl:max-w-3xl">
                 <h4 className="text-foreground font-perfectly text-2xl sm:text-3xl md:text-[34px] xl:text-4xl 2xl:text-46 leading-tight">
-                  <span className="block text-[#838385]">First reason.</span>{" "}
+                  <span className="block text-[#838385]">Second reason.</span>{" "}
                   Own the customer experience.
                 </h4>
                 <div className="mt-7 text-foreground text-base lg:text-lg 2xl:text-xl 3xl:text-22 leading-snug space-y-3 xxl:space-y-5">
