@@ -1,0 +1,86 @@
+import React from "react";
+import Link from "next/link";
+import footerLogo1 from "@/public/images/footerLogo1.svg";
+import feverWhite from "@/public/images/feverWhite.svg";
+import Image from "next/image";
+
+const Footer = () => {
+  return (
+    <footer className="pt-20 md:pt-28 xl:pt-38 xxl:pt-48 2xl:pt-64 pb-10 xxl:pb-14 bg-foreground">
+      <div className="container">
+        <ul className="space-y-2.5 max-md:text-center">
+          <li>
+            <Link
+              href="/"
+              className="text-background text-base leading-normal hover:underline underline-offset-1 transition-all duration-300"
+            >
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/"
+              className="text-background text-base leading-normal hover:underline underline-offset-1 transition-all duration-300"
+            >
+              Platform
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/"
+              className="text-background text-base leading-normal hover:underline underline-offset-1 transition-all duration-300"
+            >
+              Customer Cases
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/"
+              className="text-background text-base leading-normal hover:underline underline-offset-1 transition-all duration-300"
+            >
+              About Fever
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="/"
+              className="text-background text-base leading-normal hover:underline underline-offset-1 transition-all duration-300"
+            >
+              Contact
+            </Link>
+          </li>
+        </ul>
+        <div className="mt-10 xxl:mt-20 flex max-md:flex-col max-md:gap-3 items-center">
+          <div className="flex-1 ">
+            <Link href="/" className="inline-flex gap-4">
+              <Image
+                src={footerLogo1}
+                alt="footerLogo1"
+                className="object-contain"
+              />
+              <Image
+                src={feverWhite}
+                alt="feverWhite"
+                className="object-contain"
+              />
+            </Link>
+          </div>
+
+          <div className="flex-1 text-right">
+            <div className="text-background text-sm leading-normal">
+              © 2025 ALL RIGHTS RESERVED,{" "}
+              <Link
+                href="/"
+                className="hover:underline underline-offset-1 transition-all duration-300"
+              >
+                FEVER ENERGY
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
