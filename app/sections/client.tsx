@@ -64,7 +64,7 @@ const Client = () => {
   return (
     <section className="relative h-80 md:h-96 xl:h-[440px] 2xl:h-[665px] overflow-hidden">
       <div className="absolute inset-0 -z-10">
-        <Image src={clientBg} alt="clientBg" className="h-full w-full" />
+        <Image src={clientBg} alt="clientBg" className="object-cover h-full w-full" />
       </div>
 
       <div className="pb-10 xl:pb-16 h-full flex items-end">

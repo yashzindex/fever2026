@@ -88,7 +88,7 @@ const PlugPlay = () => {
                   <Image
                     src={plugBlock5}
                     alt="image"
-                    className="w-full h-full"
+                    className="object-cover w-full h-full"
                   />
                 </div>
               </div>
