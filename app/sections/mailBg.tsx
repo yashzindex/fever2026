@@ -23,6 +23,7 @@ const MailBg = () => {
 
           {/* email */}
           <div className="relative max-w-2xl xxl:pl-7">
+            <label htmlFor="email" className="sr-only"></label>
             <input
               type="email"
               name="email"
